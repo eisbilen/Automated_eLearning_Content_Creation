@@ -35,7 +35,7 @@ def article_title_write(line):
 	print("Title" + line[0])
 	text_file.write(line[0] + '\n')
 
-with open('/Users/erdemisbilen/Language/sports_article_body.json') as json_file:
+with open('./sports_article_body.json') as json_file:
 	data = json.load(json_file)
 	
 	with open("sports_article_all.txt", "w") as text_file:

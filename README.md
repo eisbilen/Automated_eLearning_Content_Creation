@@ -6,3 +6,19 @@ If you aim to develop an e-learning platform, the first difficulty you have to o
 In this post, I will show you step by step how such automation can be achieved using Scrapy and spaCy. In the first step, I will use the Scrapy to scrape news articles from the web. In the second step, I will process the text data by spaCy to convert the news articles to something directly usable in an English e-learning platform.
 
 The result of the above steps will be a JSON file containing 10K lines of questions in two categories which are 'Put the words in correct order' and 'Find the missing word'. The content of this JSON file then will be used in my demo web application, lingomoo.
+
+## Pre-requisites and Installation
+
++ `python3`
+
+Install dependencies. They're mostly Spacy dependencies.
+
+```bash
+pip install requirements.txt
+```
+
+Download a Spacy model
+
+```bash
+python -m spacy download en_core_web_sm
+```
