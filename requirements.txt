@@ -17,6 +17,6 @@ spacy==2.0.16
 thinc==6.12.1
 toolz==0.11.1
 tqdm==4.57.0
-ujson==4.0.2
+ujson==5.1.0
 urllib3==1.26.4
 wrapt==1.10.11
